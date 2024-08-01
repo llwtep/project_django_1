@@ -4,52 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db85ca3f-4235-403a-8ac5-b00d3302a815" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/loginapp2/vercel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginapp/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginapp/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginapp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginapp/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/backends.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/reg-css/reg.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/def.jpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/post_image/ghoul.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/aa8f18168ffe79b51363e56a2cf86233_m4uZjtI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/ghoul.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/sugure_geto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/backends.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_alter_customuser_options_customuser_first_name_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/register_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" />
+    <list default="true" id="db85ca3f-4235-403a-8ac5-b00d3302a815" name="Changes" comment="update loginapp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="6ae6255af3170c24ed443b7b90734cb45a6d1e92" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "6ae6255a",
+    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -107,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1722521096580</updated>
     </task>
+    <task id="LOCAL-00001" summary="update loginapp">
+      <option name="closed" value="true" />
+      <created>1722522409744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722522409744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update loginapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="update loginapp" />
   </component>
 </project>
