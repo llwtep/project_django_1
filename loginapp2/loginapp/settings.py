@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import os
 from pathlib import Path
-
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -81,8 +81,8 @@ DATABASES = {
         'NAME': BASE_DIR / "db.sqlite3",
     }
 }
-
-
+DATABASES['default'] = dj_database_url.parse("postgresql://loginapp_postgresql_user:S2r4CJNLCgybTwOa2uYNLMJiaLGwFXYd@dpg-cqmetebqf0us73abnbtg-a.oregon-postgres.render.com/loginapp_postgresql")
+#
 # Password validation
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
 
