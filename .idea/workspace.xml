@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db85ca3f-4235-403a-8ac5-b00d3302a815" name="Changes" comment="update loginapp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db85ca3f-4235-403a-8ac5-b00d3302a815" name="Changes" comment="database">
+      <change beforePath="$PROJECT_DIR$/loginapp2/loginapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/loginapp2/loginapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginapp2/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginapp2/main/static/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/loginapp2/static/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginapp2/main/static/reg-css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/loginapp2/static/reg-css/reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginapp2/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginapp2/users/migrations/0002_alter_customuser_options_customuser_first_name_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginapp2/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/loginapp2/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +50,14 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\project_django_1\loginapp2\" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,11 +82,20 @@
       <option name="project" value="LOCAL" />
       <updated>1722522409744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="database">
+      <option name="closed" value="true" />
+      <created>1722523365743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722523365743</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update loginapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="update loginapp" />
+    <MESSAGE value="database" />
+    <option name="LAST_COMMIT_MESSAGE" value="database" />
   </component>
 </project>
