@@ -4,13 +4,15 @@
 <h1>Posts</h1>
     <p>Date: {{ now|date }}</p>
     {% for object in object_list %}
-        <h2>{{ object.title }}</h2>
+        <div class="post-wrapper">
+        <h2>{{ object.title| upper  }} </h2>
+        <p><a href="{%url 'profile' object.author.id%}" class="text-muted"> {{ object.author }}</a></p>
         {% if object.post_image %}
             <img src="{{ object.post_image.url }}" alt="">
         {% endif %}
-        <p>{{ object.content }}</p>
-        <p>Reporter: {{ object.author }}</p>
+        <h3>{{ object.content }}</h3>
         <p>Published: {{ object.created_at|date }}</p>
+            </div>
     {% endfor %}
 
 {% endblock %}
