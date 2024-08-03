@@ -1,0 +1,13 @@
+
+
+    {% for post in posts %}
+        <div class="post-wrapper">
+        <h2>{{ post.title| upper  }} </h2>
+        <p><a href="{%url 'profile' post.author.id%}" class="text-muted"> {{ post.author }}</a></p>
+        {% if post.post_image %}
+            <img src="{{ object.post_image.url }}" alt="">
+        {% endif %}
+        <h3>{{ post.content }}</h3>
+        <p>Published: {{ post.created_at|date }}</p>
+            </div>
+    {% endfor %}
