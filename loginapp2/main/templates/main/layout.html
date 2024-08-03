@@ -28,7 +28,7 @@
             <div class="navbar-nav">
 
                 {%if user.is_authenticated%}
-                    <a class="nav-item nav-link" href="{%url 'profile'%}">Profile</a>
+                    <a class="nav-item nav-link" href="{%url 'profile' user.id %}">Profile</a>
                     <a class="nav-item nav-link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
                     <form id="logout-form" method="post" action="{% url 'logout' %}" >{% csrf_token %}</form>
                 {%else%}
@@ -54,13 +54,14 @@
                 {%for item in users%}
                 <li class="list-group-item list-group-item-light">
                     <img class="rounded-circle account-img-2" src="{{item.profile.image.url}}" alt="">
-                    {{item.username}}
+                    <a href="{% url 'profile' item.id %}" class="text-muted" style="text-decoration:none;">{{item.username}}</a>
                     <p>Last seen: {{item.last_login}}</p>
                 </li>
                 {%endfor%}
               </ul>
             </p>
           </div>
+            <a href="{%url 'post-create'%}" class="btn-rounded"><h1>+</h1></a>
             {%endif%}
         </div>
       </div>
