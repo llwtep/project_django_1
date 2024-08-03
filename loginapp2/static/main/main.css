@@ -140,3 +140,35 @@ form .input-box input{
 .input-box input:valid{
   border-color: #4070f4;
 }
+.post-wrapper{
+border: 1px solid #dddddd;
+border-radius:15px;
+margin-bottom:20px;
+padding: 10px 30px;
+}
+.post-wrapper h2{
+font-weight:bold;
+}
+.post-wrapper img{
+border-radius:20px;
+width:300px;
+}
+
+.btn-rounded{
+display:block;
+height:60px;
+width:60px;
+border-radius:50%;
+background:#712cf9;
+text-align:center;
+justify-content:center;
+text-decoration:none;
+transition: background-color 0.3s;
+}
+.btn-rounded:hover{
+background-color:#bc99f2;
+}
+.btn-rounded h1{
+color:#fff;
+
+}
